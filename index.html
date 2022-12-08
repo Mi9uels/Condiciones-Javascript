@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="/assets/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Krub:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+
+
+<body>
+
+    <div class="container">
+
+
+        <header class="header"><img id=logo src="assets/img/pintura.jpg"></header>
+
+
+        <main class="stickers">
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/1.jpeg" class="card-img-top" alt="jungla">
+                <div class="card-body">
+                    <h5 class="card-title">Jungla</h5>
+                    
+                    <form class="datos">
+                        <label class="quantity">Cantidad:</label><br><br>
+                        <input type="number" id="number1" name="Quantity" value="1">
+                        <br><br>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/2.jpeg" class="card-img-top" alt="elefante">
+                <div class="card-body">
+                    <h5 class="card-title">Elefante</h5>
+                   
+                    <form class="datos">
+                        <label class="quantity">Cantidad:</label><br><br>
+                        <input type="number" id="number2" name="Quantity" value="1">
+                        <br><br>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/3.jpeg" class="card-img-top" alt="pajaros">
+                <div class="card-body">
+                    <h5 class="card-title">Pajaros</h5>
+                   
+                    <form class="datos">
+                        <label class="quantity">Cantidad:</label><br><br>
+                        <input type="number" id="number3" name="Quantity" value="1">
+                        <br><br>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+
+
+
+
+        </main>
+
+        <button class="boton" id="boton" type="button">Agregar</button>
+
+        <p class="comprar" id="Comprar"> comprando</p>
+
+
+        <!-- <div class="password" id="password"> ingresa</div> -->
+
+        <!-- <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password"
+                   minlength="8" required>
+        </div> -->
+
+
+<div class="password">
+        <div class="row" id="pass">
+            <h2 class="mt-3">Ingrese la Password</h2>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-lg-2">
+                <select class="form-select" aria-label="Default select example" id="digito1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+            </div>
+            <div class="col-lg-2">
+                <select class="form-select" aria-label="Default select example" id="digito2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+            </div>
+            <div class="col-lg-2">
+                <select class="form-select" aria-label="Default select example" id="digito3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                  </select>
+
+        
+            </div>
+        </div>
+    </div>
+
+    <div class="ingresar" id="ingresar">
+        <button class="boton2" id="boton2">Ingresar</button>
+        <p id="parrafo2" class="mt-3"></p>
+    </div>
+   
+
+<!-- 
+        <footer class="footer"> Follow us</footer> -->
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="/assets/script.js"></script>
+
+
+</body>
+
+</html>
